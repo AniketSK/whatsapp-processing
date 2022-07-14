@@ -1,8 +1,10 @@
 {
   "scripts": {
-	"build": "netlify functions:build"
+    "build": "netlify functions:build"
   },
   "dependencies": {
-    "@netlify/functions": "^1.0.0"
+    "@netlify/functions": "^1.0.0",
+    "netlify": "^11.0.2",
+    "netlify-cli": "^10.9.0"
   }
 }
