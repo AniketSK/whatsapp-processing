@@ -1,5 +1,5 @@
 [build]
-  command = "netlify functions:build"
+  command = "npx netlify functions:build"
   functions = "functions"
   functionsSource = "functions"
   publish = "dist"
